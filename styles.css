@@ -1,0 +1,789 @@
+    html {
+	    padding: 0;
+		margin: 0px;	
+		box-sizing:border-box;
+	}
+    body {
+		font-family: helvetica,arial,sans-serif;
+		font-size: 100%;
+		margin: 0px;
+		padding: 0;
+		width: 100%;
+		color: #555;
+		line-height:150%;
+	}
+	
+	h1, h2, h3, h4 {
+	    font-family: 'Cutive Mono', courier, sans-serif;	
+		font-weight: normal;
+	}
+	.subPageHeading h1, .subPageHeading h2, .subPageHeading h3, h1.subPageHeading , h2.subPageHeading , h3.subPageHeading  {
+		color: #ff533f;
+		font-size: 1.75em;
+		margin: .5em auto;
+		padding: 0.75em;
+		text-align: center;
+		width: 80%;
+	}	
+	
+	.clearFix {
+	    clear:both;	
+	}
+	
+	div.hide {
+	    display: none;
+    }
+	
+	img {
+	    border:none;	
+	}
+	
+	a:link, a:visited, a:active {
+	    color: #555;
+		text-decoration:none;	
+	}
+	
+	a:hover {
+	    text-decoration:underline;	
+	}
+	
+	footer a:link, footer a:visited, footer a:active{
+	    color: #fff;	
+	}
+	
+	
+	/****** TOP ******/
+	
+	header {
+		background-color: #fff;
+		border-bottom: 1px dashed #ffab50;
+		padding: 10px;
+		width: 100%;
+		box-sizing:border-box;
+	}
+	
+	#logo {
+		float: left;
+		margin: 1.5em 0;
+		width: 48%;
+	}
+	
+	#logo h1 {
+		font-family: "Amatic SC",cursive;
+		font-size: 4em;
+		margin: 0 auto;
+		width: 100%;
+	}
+		
+    #logo img {
+		display: block;
+		margin: 0 auto;
+		width: 250px;
+	}
+	
+	.arrows {
+       color: #555;
+	   font-size: 0.85em;  	
+	}
+	
+	.logoFirst {
+	    color:#ffab50;	
+	}
+	
+	.logoSecond {
+	    color:#ff533f;	
+	}
+	
+	#logo h2 {
+		color: #555;
+		font-family: "Cutive Mono",courier,sans-serif;
+		font-size: 1em;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.flexSliderText {
+	    border:2px solid #fff;
+		width:45%;
+		margin:10% auto;	
+	}
+	
+	ul {
+		margin: 0.5em 0;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+		list-style:none;	
+	}
+	
+	#navDesktop {
+		float: right;
+		margin-top: 1.75em;
+		width: 48%;
+	}
+	
+	.nav1, .nav2 {
+	    display:inline-block;
+		margin-bottom: 10px;	
+	}
+	
+	.nav1 {
+		display:inline;
+		width:48%
+	}
+	
+	.nav2 {
+	    display:inline;
+		width:48%;
+	}
+	
+	nav li {
+		background-color: #fff;
+		display: inline-block;
+		font-family: "Cutive Mono",courier,sans-serif;
+		font-size: 1.125em;
+		margin: 0.125em;
+		padding: 1em;
+		/*box-shadow: 5px 5px;*/
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	
+	.navAbout {
+	}
+	
+	.navPortfolio {   
+	}
+	
+	.navResume {
+	}
+	
+	.navContact {
+	}
+	
+	#nav-wrap {
+	    display:none;	
+	}
+	
+	
+	#logo a {
+	    color: green;	
+	}
+	
+	.button a {
+	    color: 	#A2D7E9;
+	}
+	
+	.button p {
+	    color: #A2D7E9;
+		width:100px;	
+	}
+	
+	/******HOME******/
+	.flexslider {
+		border-top: 2px solid orange;
+		clear: both;
+		padding-top: 10px;
+		with:80%;
+		margin: 0 auto;
+	}
+	
+	.infoWrapper {
+		margin: 0 auto;
+		width: 80%;
+		text-align:center;
+	}
+	
+	.info {
+		margin: 3em auto;
+		width: 100%;
+	}
+	
+	.infoText {
+	    width: 100%;	
+	}
+	
+	.infoText .redText {
+	    color: #f77a51;	
+		font-size: 1.3125em;
+		line-height: 1.65em;
+		font-family: "Cutive Mono",courier,sans-serif;
+	}
+	.infoText p {
+		color: #333;
+		font-size:1em;
+		line-height: 1.5em;
+	}
+	
+	
+	/*.info img {
+		border: 2px solid #f77a51;
+		border-radius: 50%;
+		float: right;
+		height: 236px;
+		margin-top: 65px;
+		width: 236px;
+	}*/
+	
+	.recentWorkWrapper {
+		box-sizing: border-box;
+		margin-bottom: 2em;
+		width: 100%;
+	}
+	
+	.recentWork {
+		margin: 0 auto 0.5em;
+		width: 80%;
+	}
+	
+	.recentWorkWrapper h3 {
+		background-color:  #ff533f;
+		border-bottom: 2px solid #fff;
+		color: #fff;
+		font-size: 1.75em;
+		margin-bottom: 1.5em;
+		padding:1em;
+		text-align:center;
+	}
+	
+	.mainImage {
+	    border: medium none;
+		display: inline;
+		margin-right: 1%;
+		width: 32.6%;
+	}
+	
+	.mainImage a:link, .mainImage a:visited {
+	    color: #fff;	
+	}
+	
+	.img300 {
+		box-sizing: border-box;
+		width: 100%;
+	}
+	
+	.projectTitle {
+		font-family: "Cutive Mono",courier,sans-serif;
+		font-size: 2.1em;
+		margin: 35% auto 10px;
+		padding: 0;
+		text-transform: uppercase;
+		width: 80%;
+	}
+	
+	.bjMainPageInfo, .kcMainPageInfo, .mbwMainPageInfo {
+	    display:none;	
+	}
+	
+	.bjMainPage {
+	    float:left;	
+		position:relative;
+		
+	}
+	
+	.bjMainPageInfo, .mbwMainPageInfo,  .kcMainPageInfo {
+	    background: rgba(68, 68, 68, 0.95);
+		bottom: 0;
+		position: absolute;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		padding:5px;
+		box-sizing: border-box;
+	}
+	
+	.kcMainPage {
+	    float:left;	
+		position:relative;
+	}
+	
+	/*.kcMainPageInfo {
+	    background:rgba(255, 83, 63, 0.85);
+		bottom: 33%;
+		position: absolute;
+		text-align: center;
+		top: 33%;
+		width: 100%;
+	}*/
+	
+	.mbwMainPage {
+	    float:right;	
+		position:relative;
+		margin-right:0;
+	}
+	
+	/*.mbwMainPageInfo {
+	    background: rgba(255, 83, 63, 0.85);
+		bottom: 33%;
+		position: absolute;
+		text-align: center;
+		top: 33%;
+		width: 100%;
+	}*/
+	/****** ABOUT ******/
+	.aboutWrapper{
+	    width:80%;	
+		margin:0 auto;
+	}
+	.aboutImage {
+		border: 2px solid #f77a51;
+		border-radius: 50%;
+		display: block;
+		float: left;
+		height: 250px;
+		margin: 0 2em 1em;
+		width: 250px;
+	}
+	
+	/****** PORTFOLIO ******/
+	.portfolioWrapper {
+	    width:80%;
+		margin: 0 auto;	
+	}
+	
+	.project {
+		border: 0.25px solid #eee;
+		margin: 2.5em auto;
+		padding: 0;
+	}
+	.projectHeading {
+		background-color: #ff533f;
+		box-sizing: border-box;
+		color: #fff;
+		font-size: 1.5em;
+		margin: 0 auto;
+		padding: 0.5em;
+		text-align: center;
+		width: 100%;
+	}	
+	
+	.projectImg {
+		box-shadow: 1px 1px 5px #aaa;
+		display: block;
+		margin: 1.5em auto;
+		width: 50%;
+	}
+	
+	.project h4 {
+	    margin: 0 1em;
+		text-align:center;
+			
+	}
+	
+	.year, .highlights {
+	    font-family: 'Cutive Mono', courier, sans-serif;	
+	}
+	
+	
+	/******PORTFOLIO- PROJECTS ******/
+	.projectDetails {
+		margin: 0 auto;
+		width: 80%;
+	}
+	
+	.projectWrapper h2 {
+		background-color:  #ff533f;
+		border-bottom: 2px solid #fff;
+		color: #fff;
+		font-size: 1.75em;
+		margin-bottom: 1.5em;
+		padding:1em;
+		text-align:center;
+	}
+	
+	.projectText {
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	.detailList {
+		list-style: outside none disc;
+		padding-left: 2.5%;
+		text-align: left;
+		}
+		
+	.list1 {
+		float: left;
+		width: 40%;
+	}
+	
+	.list2 {
+	    float:right;	
+		width:40%;
+	}
+	
+	.projectMainImage {
+		display: block;
+		margin: 1.5em auto;
+		width: 50%;
+	}
+	.gallery {
+	  text-align:center;
+	
+	}
+	
+	.gallery img {
+		border: 3px solid orange;
+		width: 13%;
+	}
+	/****** RESUME ******/
+	.resumeHeader {
+	    width:100%;		
+	}
+	.resumeWrapper {
+		margin: 0 auto;
+		padding-bottom: 2.5em;
+		width: 80%;
+	}
+	.resumeHeader h1 {
+		background-color: #ffab50;
+		border-bottom: 2px solid #fff;
+		color: #fff;
+		font-size: 2em;
+		padding: 1em;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.resumeDoc {
+	    width: 100%;	
+	}
+	
+	.resumeLinks ul {
+		height: 4em;
+		margin: 1em 0;
+    }
+	
+	.resumeLinks li {
+		/*background-color: #ffab50;
+		border-radius: 65% 70% 60% 55%;
+		box-shadow: 5px 5px;*/
+		display: inline;
+        margin: 0 2%;
+		padding: 17px;
+		border-radius:5px;
+		border:1px solid #ffab50;
+		font-family: 'Cutive Mono', courier, sans-serif;	
+	}
+	.embed-container { 
+	    position: relative; 
+		padding-bottom: 56.25%; 
+		height: 0;  
+		max-width: 100%; 
+		border: 1px solid #eee;
+		margin-bottom: 2.5em;
+	} 
+	.embed-container iframe, .embed-container object, .embed-container embed { 
+	    position: absolute; 
+		top: 0;
+		left: 0; 
+		width: 100%; 
+		height: 100%; 
+		border:none;
+    }
+	
+	/******CONTACT******/
+	.contactWrapper {
+	    width:80%;
+		margin:0 auto;	
+	}
+	
+	form {
+	    margin:1.5em auto;
+		width:320px;	
+		float: right;
+	}
+	
+	form input, form textarea {
+		margin: 5px;
+		width: 305px;
+	}
+	
+	.contactWrapper p{
+	    float:left;	
+		width:60%;
+	}
+	
+	/****** FOOTER ******/
+	
+	footer {
+		background-color: #f77a51;
+		margin: 0;
+		width: 100%;
+		position: absolute;
+	}
+	
+	footer p {
+	    padding: 0;	
+	}
+	
+	.footerWrapper {
+		color: #fff;
+		margin: 0 auto;
+		padding-top: 5px;
+		width: 80%;
+		line-height:1em;
+	}
+	
+	.copyDiv {
+		font-size: 0.75em;
+        font-style: italic;
+		margin-right: 1em;
+		float:left;
+	}
+	
+	.social {
+	    
+	}
+	
+	
+	.disValid {
+		font-size: 0.75em;
+        font-style: italic;
+		float:left;
+	}
+	
+	footer .fa {
+		margin: 0 .25em;
+		font-size: 2em;
+	}
+	.footerContact {
+	    border-bottom: 1px dashed #fff;
+		margin: 1em auto;
+		padding-bottom: 10px;
+		text-align: center;
+		width: 50%;
+	}
+	
+	.footerContact h4 {
+		font-size: 1.5em;
+		margin: 0;
+	}
+	
+	.footerContact p {
+		font-size: 1em;
+		margin: 0.75em;
+	}
+	.footerNav {
+		width: 100%;
+	}
+	
+	.footerNav ul {
+		margin: 0;
+		padding: 10px;
+		text-align: center;
+		width: 100%;
+		box-sizing:border-box;
+	}	
+	.footerNav li {
+		display: inline;
+		padding: 1em;
+		text-decoration: none;
+	}
+	
+	@media all and (min-width:1280px) {
+	}
+	
+	@media all and (min-width: 481px) and (max-width:1279px) {
+		
+	}
+	
+	@media all and (max-width:480px) {
+   header {
+	    padding:0; 
+		border-bottom:none;  
+   }
+   
+   #logo {
+	    float:none;
+		width:100%; 
+		margin:1em 0;  
+   }
+    #navDesktop  {
+		display:none;
+    }
+	
+	.navMobile {
+		display: none;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	#nav-wrap {
+		background-color: #ffab50;
+		box-shadow: 1px 3px 3px #aaa;
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+		box-sizing:border-box;
+	}
+	
+	#nav-wrap p {
+	    margin:0;	
+	}
+	
+	.menu {
+		color: #fff;
+		float: right;
+		font-size: 1.25em;
+		line-height: 2.05em;
+		text-transform: uppercase;
+		font-family:"Cutive Mono",courier,sans-serif;
+	}
+	
+		
+	.menuIcon {
+		box-sizing: border-box;
+		color: #fff;
+		float: right;
+		font-size: 1.25em;
+		line-height: 2em;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+		
+	ul #nav-wrap {
+	    width:100%;	
+		background-color:#fff;
+	}
+	
+	nav li {
+		border-bottom: 1px solid #eee;
+		box-sizing: border-box;
+		display: block;
+		margin: 0;
+		padding: 0.5em 2em;
+		text-align: center;
+	}
+	
+	.infoWrapper {
+	    width:95%;	
+	}
+	
+	.infoText {
+	    float:none;
+		width:100%;
+		text-align:center;
+		font-size:90%;	
+	}
+	
+	.info img {
+	    float:none;
+		display:block;
+		margin:1em auto;	
+	}
+	
+	.recentWorkWrapper h3 {
+		margin: 1em 0;
+		padding: 1em 0;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.recentWork {
+	    width:95%;	
+	}
+	
+	.bjMainPage, .kcMainPage, .mbMainPage {
+	    float:none;	
+	}
+	
+	.mainImage {
+		display: block;
+		float: none;
+		margin: 20px auto;
+		width: 95%;
+	}
+	
+	/****** ABOUT MOBILE ******/
+	
+	.aboutWrapper {
+	    width: 95%;	
+	}
+	
+	.aboutImage {
+	    float:none;
+		margin: 0 auto; 
+	}
+	
+	.aboutWrapper p {
+	    text-align:center;	
+	}
+	/****** ABOUT MOBILE ******/
+	
+	.portfolioWrapper {
+	    width: 95%;	
+	}
+	
+	.project {
+	    margin: 1em auto;	
+	}
+	
+	.projectImg {
+		box-shadow: none;
+		margin: 0 auto 1em;
+		width: 100%;
+	}
+	
+	.project h4 {
+	    text-align:center;	
+	}
+	
+	.projectText {
+		margin: 0 auto;
+		padding-left: 1.5em;
+		width: 95%;
+		box-sizing:border-box;
+	}
+	
+	/****** CONTACT MOBILE ******/
+	
+	.contactWrapper {
+	    width:100%;	
+	}
+	
+	form {
+	    float:none;	
+	}
+	
+	.contactWrapper p {
+		box-sizing: border-box;
+		float: none;
+		margin: 1em auto;
+		padding: 10px;
+		width: 95%;
+	}
+	
+	/****** RESUME MOBILE ******/
+	
+	.resumeWrapper {
+	    width:95%;	
+		padding-bottom:10em;
+	}
+	
+	.embed-container {
+	    display:none;	
+	}
+	.resumeLinks li {
+		box-shadow: none;
+		display: block;
+		margin: 4% 2%;
+		padding: 17px;
+	}
+	
+	
+	
+	/****** FOOTER MOBILE ******/
+	
+	.footerContact {
+	    width:95%;	
+	}
+	.footerWrapper {
+	    width:100%;
+		text-align:center;	
+	}
+	.copyDiv, .disValid {
+	    float:none;
+		margin:0;	
+	}
+	}
